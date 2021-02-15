@@ -1,11 +1,10 @@
-<nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+<!-- <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
 	<div class="navbar-brand">
 		<a class="navbar-item" href="https://murunwa.ga">
 			<img src="https://cloudcengy.imfast.io/logo1.png" alt="ceny tech logo" width="112" height="28">
 		</a>
 
-		<a on:click={onToggle} bind:this={navElem} role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
-		 data-target="navMenu">
+		<a on:click={onToggle} bind:this={navElem} role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" href="" data-target="navMenu">
 			<span aria-hidden="true"></span>
 			<span aria-hidden="true"></span>
 			<span aria-hidden="true"></span>
@@ -14,14 +13,14 @@
 
 	<div id="navMenu" class="navbar-menu" bind:this={toggleElem}>
 		<div class="navbar-end">
-			<a on:click={onToggle} href="#" class="navbar-item is-active">Home</a>
-			<a on:click={print} href="#" class="navbar-item">Blog</a>
-			<a href="#" class="navbar-item">Forum</a>
-			<a href="#" class="navbar-item">Shop</a>
-			<a href="#" class="navbar-item">Examples</a>
+			<a on:click={onToggle} href="" class="navbar-item is-active">Home</a>
+			<a on:click={print} href="" class="navbar-item">Blog</a>
+			<a href="" class="navbar-item">Forum</a>
+			<a href="" class="navbar-item">Shop</a>
+			<a href="" class="navbar-item">Examples</a>
 		</div>
 	</div>
-</nav>
+</nav> -->
 
 <script>
   import { onMount } from "svelte";
